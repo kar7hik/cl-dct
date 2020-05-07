@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZbs{}begin\PYGZob{}equation\PYGZcb{}
+where,
+\PYGZbs{}tilde\PYGZob{}\PYGZbs{}beta\PYGZcb{}[k] =
+        \PYGZbs{}begin\PYGZob{}cases\PYGZcb{}
+                \PYGZbs{}frac\PYGZob{}1\PYGZcb{}\PYGZob{}\PYGZbs{}sqrt\PYGZob{}2\PYGZcb{}\PYGZcb{}, \PYG{err}{\PYGZam{}} \PYGZbs{}quad k = 0, \PYGZbs{}\PYGZbs{}
+                1, \PYG{err}{\PYGZam{}} \PYGZbs{}quad k = 1, 2,..., N \PYGZhy{} 1.
+        \PYGZbs{}end\PYGZob{}cases\PYGZcb{}
+\PYGZbs{}end\PYGZob{}equation\PYGZcb{}
+\end{Verbatim}
