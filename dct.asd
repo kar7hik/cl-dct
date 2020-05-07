@@ -1,7 +1,7 @@
 ;;;; dct.asd
 
 (asdf:defsystem #:dct
-  :description "Describe dct here"
+  :description "Implementation of Discrete Cosine Transform (DCT) and Inverse Discrete Cosine Transform."
   :author "S. Karthik kumar <karthikkumar.s@protonmail.com>"
   :license  "MIT"
   :version "0.0.1"
