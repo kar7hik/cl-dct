@@ -5,7 +5,9 @@
   :author "S. Karthik kumar <karthikkumar.s@protonmail.com>"
   :license  "MIT"
   :version "0.0.1"
-  :depends-on (#:iterate #:bordeaux-threads #:clgplot)
+  :depends-on (#:iterate #:alexandria)
   :serial t
-  :components ((:file "package")
-               (:file "dct")))
+  :components ((:module src
+                :serial t
+                :components ((:file "package")
+                             (:file "dct")))))
