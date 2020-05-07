@@ -2,4 +2,6 @@
 
 (defpackage #:dct
   (:use #:cl
-        #:iterate))
+        #:iterate)
+  (:export #:dct
+           #:idct))

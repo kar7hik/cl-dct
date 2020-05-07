@@ -2,7 +2,7 @@
 
 (in-package #:dct)
 
-(defun dct-ii (input-vector)
+(defun dct (input-vector)
   "Discrete Cosine Transformation - II
    Equation from: Discrete-Time Signal Processing - Alan V. Oppenheim"
   (alexandria:coercef input-vector 'vector)
